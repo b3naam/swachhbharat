@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Swachh Bharat</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="credits_concept">App Concept by @mahekshah ></string>
+    <string name="credits_author_link">http://twitter.com/mahekmshah</string>
+    <string name="credits_fotomobile">Proceed to website ></string>
+    <string name="credits_fotomobile_link">http://mobgov.org/</string>
+    <string name="recent_report_map">View recent reports map</string>
+    <string name="recent_hash_swachh">#SwachhBharat</string>
+    <string name="recent_at_swachh">\u0040SwachhBharatApp</string>
+    <string name="recent_fbpage">FB Page</string>
+    <string name="recent_website">Website</string>
+    <string name="url_fb">http://facebook.com/swachhbharatapp</string>
+
+    <string-array name="complaints">
+        <item>@string/complaint_trash</item>
+        <item>@string/complaint_govtoffice</item>
+        <item>@string/complaint_hospital</item>
+        <item>@string/complaint_airport</item>
+        <item>@string/complaint_busstop</item>
+        <item>@string/complaint_trainstation</item>
+        <item>@string/complaint_road</item>
+        <item>@string/complaint_college</item>
+        <item>@string/complaint_trafficsignal</item>
+        <item>@string/complaint_playground</item>
+        <item>@string/complaint_truck</item>
+        <item>@string/complaint_bikeparking</item>
+        <item>@string/complaint_carparking</item>
+        <item>@string/complaint_roaddividers</item>
+        <item>@string/complaint_marketarea</item>
+        <item>@string/complaint_trafficboards</item>
+        <item>@string/complaint_moviehall</item>
+        <item>@string/complaint_bank</item>
+        <item>@string/complaint_court</item>
+        <item>@string/complaint_spacestation</item>
+        <item>@string/complaint_jail</item>
+        <item>@string/complaint_park</item>
+    </string-array>
+    <string-array name="complaints_icons">
+        <item>@string/icon_trash</item>
+        <item>@string/icon_govtoffice</item>
+        <item>@string/icon_hospital</item>
+        <item>@string/icon_airport</item>
+        <item>@string/icon_busstop</item>
+        <item>@string/icon_railwaystn</item>
+        <item>@string/icon_road</item>
+        <item>@string/icon_college</item>
+        <item>@string/icon_trafficsignal</item>
+        <item>@string/icon_playground</item>
+        <item>@string/icon_truck</item>
+        <item>@string/icon_bikeparking</item>
+        <item>@string/icon_carparking</item>
+        <item>@string/icon_roaddividers</item>
+        <item>@string/icon_marketarea</item>
+        <item>@string/icon_trafficboards</item>
+        <item>@string/icon_moviehall</item>
+        <item>@string/icon_bank</item>
+        <item>@string/icon_court</item>
+        <item>@string/icon_spacestation</item>
+        <item>@string/icon_jail</item>
+        <item>@string/icon_park</item>
+    </string-array>
+
+    <string name="complaint_trash">Trash bin</string>
+    <string name="complaint_govtoffice">Govt. Office</string>
+    <string name="complaint_hospital">Hospital</string>
+    <string name="complaint_airport">Airport</string>
+    <string name="complaint_busstop">Bus Stop</string>
+    <string name="complaint_trainstation">Train Stn</string>
+    <string name="complaint_road">Road</string>
+    <string name="complaint_trafficsignal">Signal</string>
+    <string name="complaint_playground">Playground</string>
+    <string name="complaint_truck">Truck Park</string>
+    <string name="complaint_bikeparking">Bike Park</string>
+    <string name="complaint_carparking">Car park</string>
+    <string name="complaint_roaddividers">Divider</string>
+    <string name="complaint_marketarea">Market</string>
+    <string name="complaint_trafficboards">Board</string>
+    <string name="complaint_moviehall">Theatre</string>
+    <string name="complaint_bank">Bank</string>
+    <string name="complaint_court">Court</string>
+    <string name="complaint_spacestation">Space Stn</string>
+    <string name="complaint_jail">Jail</string>
+    <string name="complaint_park">Park</string>
+    <string name="complaint_college">College</string>
+
+    <!-- dialog -->
+    <string name="dialog_error_camera_failure">Oops! Either the previous action was cancelled or something really went wrong! Please try again!</string>
+    <string name="dialog_error_unable_gps">Unable to get your location of the event, Enable GPS and repost</string>
+    <string name="dialog_tweeted_success">Tweeted Successfully</string>
+    <string name="dialog_tweeted_failure">There was a problem posting the tweet</string>
+    <string name="dialog_button_settings">Settings</string>
+    <string name="dialog_button_cancel">Cancel</string>
+    <string name="dialog_network_unavailable">Network not available</string>
+    <string name="dialog_network_alert">Network Alert!</string>
+    <string name="dialog_ok">Ok</string>
+    <string name="dialog_alert">Alert!</string>
+    <string name="dialog_report_dirty">Report Dirty Place</string>
+    <string name="dialog_tweet">Tweet</string>
+    <string name="dialog_tweeting">Tweeting, Please wait...</string>
+
+
+</resources>

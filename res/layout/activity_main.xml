@@ -1,0 +1,240 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3498db" >
+
+    <ImageView
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3498db"
+        android:src="@drawable/swacch_bharat" />
+
+    <ImageView
+        android:id="@+id/steps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topbar"
+        android:background="#F4F4F4"
+        android:src="@drawable/steps" />
+
+    <HorizontalScrollView
+        android:id="@+id/complaint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/steps"
+        android:background="#F4F4F4"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/complainticonsscroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/complaint"
+        android:orientation="vertical" >
+
+        <!-- view recent maps -->
+
+        <LinearLayout
+            android:id="@+id/map_reports"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_selector"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <com.mahekmshah.swachhbharat.reusable.SwachIconFont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/icon_location"
+                android:textColor="@android:color/black"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/recent_report_map"
+                android:textColor="@android:color/black"
+                android:textSize="22sp" />
+
+            <com.mahekmshah.swachhbharat.reusable.SwachIconFont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/icon_rightarrow"
+                android:textColor="@android:color/black"
+                android:textSize="22sp" />
+        </LinearLayout>
+        <!-- twitter feeds -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:background="#EEEEEE"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <LinearLayout
+                android:id="@+id/hash_swach"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/button_selector"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <com.mahekmshah.swachhbharat.reusable.SwachIconFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/icon_twitter"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/recent_hash_swachh"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <com.mahekmshah.swachhbharat.reusable.SwachIconFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/icon_rightarrow"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/at_swach"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/button_selector"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <com.mahekmshah.swachhbharat.reusable.SwachIconFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/icon_twitter"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/recent_at_swachh"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <com.mahekmshah.swachhbharat.reusable.SwachIconFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/icon_rightarrow"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- fb and website -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:background="#EEEEEE"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <LinearLayout
+                android:id="@+id/fb_page"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/button_selector"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <com.mahekmshah.swachhbharat.reusable.SwachIconFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/icon_fb"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/recent_fbpage"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <com.mahekmshah.swachhbharat.reusable.SwachIconFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/icon_rightarrow"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/website"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/button_selector"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <com.mahekmshah.swachhbharat.reusable.SwachIconFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/icon_website"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/recent_website"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <com.mahekmshah.swachhbharat.reusable.SwachIconFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/icon_rightarrow"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

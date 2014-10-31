@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <com.mahekmshah.swachhbharat.reusable.SwachIconFont
+        android:id="@+id/comicons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/icon_trash"
+        android:textColor="@android:color/black"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/comiconstext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/complaint_trash"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+</LinearLayout>
